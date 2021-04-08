@@ -1,0 +1,56 @@
+
+body {
+    background-color: gainsboro;
+    
+    font-size: 20px; 
+    font-family:'sofia','Trebuchet MS','courier','Arial';
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    letter-spacing: 0.05px;
+    line-height: 28px;
+
+    
+    /* 
+    comment in css - 
+    background-image: url("https://th.bing.com/th/id/OIP.-ryaKKGxYdI_toWwD2sEtQHaEo?w=283&h=180&c=7&o=5&dpr=1.5&pid=1.7");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    Inline or shorthand for background property 
+    background: gainsboro url("https://th") no-repeat cover right top
+    */
+}
+
+#subhead {
+    color: teal;
+}
+
+.image {
+float:right;
+}
+/*
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    grid-area: header;
+}
+
+.right {
+    grid-area: right;
+}
+
+.left {
+    grid-area: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    header header header header header header
+    left left right right right right;
+}
+*/

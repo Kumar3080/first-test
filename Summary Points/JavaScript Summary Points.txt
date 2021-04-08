@@ -1,0 +1,39 @@
+JS Condition - 
+Example1 - 
+let n1=10;
+let n2=20;
+let n3=30
+if (n1<30) {
+ console.log('you are right')
+} else {
+ console.log('you are wrong')
+}
+
+Example2 - 
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+Inverted commas to be used in String Only.
+
+Example3 - shortcut for If else - Ternary Operator
+n1>25?console.log('Bro, the answer is wrong. Better luck next time. Good Night'):console.log('Bro, you are right. Congrats')
+Bro, you are right. Congrats
+
+Switch function - 
+Switch('Today is Monday'){
+  case 'Today is Tuesday':
+console.log('Today is Tuesday')
+break;
+  case 'Today is Monday':
+console.log('Today is Monday')
+break;
+  default:
+console.log('Today is neither Monday nor Tuesday')
+}
+Today is Monday
+

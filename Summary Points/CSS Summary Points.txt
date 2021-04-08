@@ -1,0 +1,116 @@
+Cascading Style Sheets
+
+CSS Selector - 
+id - id="para1"
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+</style>
+
+class="center"
+.center {
+  text-align: center;
+  color: red;
+}
+
+External CSS - before body 
+<link rel="stylesheet" href="mystyle.css">
+Separate file - .css file
+mystyle.css
+
+Inline CSS Example - 
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+inline style has the highest priority, and will override 
+
+CSS Comments
+/* This is a single-line comment */
+
+
+background-color: Blue; opacity: 0.3
+Opacity - background-color:rgba(255, 99, 71, 0.5) 
+
+background-image: url("paper.gif") /*Why the image are not coming 100% but tiles*/
+background-repeat: no-repeat
+background-position: right top;
+margin-right: 200px;
+background-attachment: fixed / scroll - Sets whether a background image is fixed or scrolls with the rest of the page
+background-size:cover / auto / contain / 300px 200px - Specifies the size of the background image(s)
+
+backgroung inline / shorthand which is short cut. We can write in Css as follows - 
+background: gainsboro url("paper.gif") no-repeat right top fixed cover;
+
+border-style
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+
+border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+it can be : medium / thick
+
+border-color:
+border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+
+border Short hand property - 
+border-left: 6px solid red
+
+CSS Rounded Borders
+border-radius: 5px
+
+
+
+color
+border
+
+CSS Grid - 3 Colmns & rows
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  gap: 10px
+}
+	.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+Page Margin - Html/body {
+	margin: 25px 50px 75px 100px;}
+
+	margin: 25px 50px;
+top and bottom margins are 25px
+right and left margins are 50px
+
+Overall with 1 value- 
+	margin: 30px
+	padding: 20px ------This is margin within Margin
+
+Outline over border / margin - 
+	outline-style: solid;
+	outline-color: red;
+	outline-width: 4px;
+Shorthand - Outline-
+	outline: 5px dotted teal;
+
+Text property - 
+	letter-spacing: 0.05px;
+    	line-height: 28px;
+	text-decoration: underline; / line-through / none;
+	text-transform: UPPERCASE / lowercase / Capitalize;
+
+

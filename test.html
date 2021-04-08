@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<h1>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        <label>First Name :</label>
+        <input type="text" name="fname" placeholder="First name..." value="pooja" readonly required/>
+        <br /><br />
+        <label>Last Name :</label>
+        <input type="text" name="lname" placeholder="Last name" autocapitalize/>
+        <br /> <br />
+        <label>Date of birth :</label>
+        <input type="date" name="dob" placeholder="Last name" max="1996-09-21"/>
+        <br /> <br />
+        <label>Time :</label>
+        <input type="time" placeholder="Last name" />
+        <br /> <br />
+        <label>Date - Time :</label>
+        <input type="datetime-local" placeholder="date - time" />
+        <br /> <br />
+        <label>Email: </label>
+        <input type="email" placeholder="Enter you email..." />
+        <br/><br/>
+        <label>Password: </label>
+        <input type="password" placeholder="Enter you password..." />
+        <br/><br/>
+        <label>Enter your %: </label>
+        <input type="number" placeholder="Enter your %" step="10"  title="Percentage is a required field."/>
+        <br/><br/>
+        <label>Gender : </label>
+        <input type="radio" name="gender" value="female" /> Female
+        <input type="radio" name="gender" value="male"/> Male
+        <br /><br />
+        <input type="hidden" value="100" />
+        <select name="city">
+            <option>----select city-----</option>
+            <option value="kolhapur">Kolhapur</option>
+            <option value="ichi">Ichalkaranji</option>
+            <option value="sangli">Sangli</option>
+            <option value="miraj">Miraj</option>
+        </select>
+        <br /><br />
+        <label>Subjects : </label>
+        <input type="checkbox" value="math">Math
+        <input type="checkbox" value="english" checked>English
+        <input type="checkbox" value="cs" />Computer science
+        <br/><br/>
+        <label>select Month </label>
+        <input type="month" />
+        <br/><br/>
+        <label>select week </label>
+        <input type="week" />
+        <br/><br/>
+        <label>website url</label>
+        <input type="url" placeholder="enter you web url..."/>
+        <br /><br />
+        <label>aadhar card</label>
+        <input type="file" multiple placeholder="enter you web url..." required/>
+        <br /><br />
+        <label>color</label>
+        <input type="color" />
+        <input type="submit" />
+        <input type="reset" />
+    </form>
+</body>
+</html>
